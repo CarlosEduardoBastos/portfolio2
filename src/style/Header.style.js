@@ -13,7 +13,7 @@ export const HeaderContainer = styled.header`
 
     .header_text {
       max-width: 500px;
-
+      margin: 10px;
       h1 {
         color: #fff;
         font-family: Helvetica;
