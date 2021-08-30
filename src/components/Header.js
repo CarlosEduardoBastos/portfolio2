@@ -1,7 +1,17 @@
 import React from "react";
 import { HeaderContainer } from "../style/Header.style";
+import Lottie from "react-lottie";
+import animationData from "../assets/lotties/36121-developer-at-work.json";
 
 const Header = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <HeaderContainer>
       <section className="header_item">
@@ -14,7 +24,27 @@ const Header = () => {
             desenvolvimento web foi onde eu aprendi html, css, javascript e
             estou aprendendo react.js e next.js.
           </p>
+          <p>Número: 55 74 999016923</p>
+          <p>Email: carloseduardolimabastosm@gmail.com</p>
+          <a
+            href="https://www.linkedin.com/in/carlos-eduardo-lima-5638271ba/"
+            target="_blank"
+          >
+            Linkedin
+          </a>
+          <a href="https://github.com/CarlosEduardoBastos" target="_blank">
+            Github
+          </a>
         </section>
+
+        <div className="lottie">
+          <Lottie
+            options={defaultOptions}
+            height={300}
+            width={400}
+            title="Emad Moradian"
+          />
+        </div>
       </section>
     </HeaderContainer>
   );
