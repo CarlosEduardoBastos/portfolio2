@@ -26,15 +26,10 @@ const Header = () => {
           </p>
           <p>Número: 55 74 999016923</p>
           <p>Email: carloseduardolimabastosm@gmail.com</p>
-          <a
-            href="https://www.linkedin.com/in/carlos-eduardo-lima-5638271ba/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/carlos-eduardo-lima-5638271ba/">
             Linkedin
           </a>
-          <a href="https://github.com/CarlosEduardoBastos" target="_blank">
-            Github
-          </a>
+          <a href="https://github.com/CarlosEduardoBastos">Github</a>
         </section>
 
         <div className="lottie">
