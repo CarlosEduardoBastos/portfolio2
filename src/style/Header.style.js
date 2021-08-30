@@ -9,6 +9,7 @@ export const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
     .header_text {
       max-width: 500px;

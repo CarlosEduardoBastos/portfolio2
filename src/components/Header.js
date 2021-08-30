@@ -41,7 +41,7 @@ const Header = () => {
           <Lottie
             options={defaultOptions}
             height={300}
-            width={400}
+            width={350}
             title="Emad Moradian"
           />
         </div>
