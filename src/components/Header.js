@@ -18,7 +18,7 @@ const Header = () => {
         <section className="header_text">
           <h1>Sobre</h1>
           <p>
-            Meu nome é Carlos Eduardo, tenho 17 anos, comecei na área da
+            Meu nome é Carlos Eduardo, tenho 18 anos, comecei na área da
             programação aos 11 anos utilizando a linguagem python, mas o que me
             apaixonou foi o desenvolvimento web onde eu estou até hoje, no
             desenvolvimento web foi onde eu aprendi html, css, javascript e
