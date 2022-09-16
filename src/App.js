@@ -1,13 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Corpo from "./components/Corpo";
-import Header from "./components/Header";
+import Home from "./pages/Home";
+
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Corpo />
+      <Home />
     </>
   );
 };

@@ -1,7 +1,8 @@
 import React from "react";
-import { HeaderContainer } from "../style/Header.style";
+import { HeaderContainer } from "./styled";
 import Lottie from "react-lottie";
-import animationData from "../assets/lotties/36121-developer-at-work.json";
+import animationData from "../../assets/lotties/36121-developer-at-work.json";
+
 
 const Header = () => {
   const defaultOptions = {

@@ -1,10 +1,10 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import foto from "../img/site.png";
-import modelo1 from "../img/modelo1.png";
-import modelo2 from "../img/modelo2.png";
+import foto from "../../img/site.png";
+import modelo1 from "../../img/modelo1.png";
+import modelo2 from "../../img/modelo2.png";
 
-function ControlledCarousel() {
+function ComponentCarousel() {
   const [index, setIndex] = React.useState(0);
 
   const handleSelect = (selectedIndex, e) => {
@@ -26,5 +26,4 @@ function ControlledCarousel() {
   );
 }
 
-//   render(<ControlledCarousel />);
-export default ControlledCarousel;
+export default ComponentCarousel;
